@@ -61,7 +61,28 @@ class ViewController: UIViewController {
         layer1.contents = image?.cgImage
         self.view.layer.addSublayer(layer1)
 
-//        layer2 = CALayer()
-//        layer2.frame = CGRect()
+        layer2 = CALayer()
+        image = UIImage(named: "circle.png")
+        layer2.frame = CGRect(x: 50, y: 400, width: 239, height: 229)
+        layer2.contents = image?.cgImage
+        self.view.layer.addSublayer(layer2)
+    }
+    @IBAction func slideChange(_ sender: UISlider) {
+        print("degree is \(sender.value)")
+//        let deg = sender.value
+//        let radius = deg / 180 * Float.pi
+//        let rotation = CGAffineTransform(rotationAngle: CGFloat(radius) )
+//        layer2.setAffineTransform(rotation)
+
+        layer2.setAffineTransform(sender.value.getAffineTransform())
+    }
+
+}
+extension Float {
+    func getRadius()->CGFloat {
+        return CGFloat(self / 180 * Float.pi)
+    }
+    func getAffineTransform()->CGAffineTransform {
+        return CGAffineTransform(rotationAngle: self.getRadius())
     }
 }

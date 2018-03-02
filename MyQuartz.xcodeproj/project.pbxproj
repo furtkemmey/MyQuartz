@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7282F4052048D543006791EC /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 7282F4042048D543006791EC /* circle.png */; };
 		72ADA0922043F5830082C1C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ADA0912043F5830082C1C9 /* AppDelegate.swift */; };
 		72ADA0942043F5830082C1C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ADA0932043F5830082C1C9 /* ViewController.swift */; };
 		72ADA0972043F5830082C1C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72ADA0952043F5830082C1C9 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7282F4042048D543006791EC /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
 		72ADA08E2043F5830082C1C9 /* MyQuartz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyQuartz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72ADA0912043F5830082C1C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72ADA0932043F5830082C1C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				72ADA0A32043F5DE0082C1C9 /* Demo.jpg */,
+				7282F4042048D543006791EC /* circle.png */,
 				72ADA0912043F5830082C1C9 /* AppDelegate.swift */,
 				72ADA0932043F5830082C1C9 /* ViewController.swift */,
 				72ADA0952043F5830082C1C9 /* Main.storyboard */,
@@ -128,6 +131,7 @@
 			files = (
 				72ADA0A42043F5DE0082C1C9 /* Demo.jpg in Resources */,
 				72ADA09C2043F5830082C1C9 /* LaunchScreen.storyboard in Resources */,
+				7282F4052048D543006791EC /* circle.png in Resources */,
 				72ADA0992043F5830082C1C9 /* Assets.xcassets in Resources */,
 				72ADA0972043F5830082C1C9 /* Main.storyboard in Resources */,
 			);
